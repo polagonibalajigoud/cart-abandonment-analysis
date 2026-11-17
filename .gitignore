@@ -1,0 +1,30 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# PySpark / Hadoop / Spark local runs
+spark-warehouse/
+metastore_db/
+derby.log
+*.crc
+checkpoint/
+
+# Environment & virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+*.log
+
+# Operating System files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE & Editor files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
